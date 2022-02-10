@@ -405,7 +405,6 @@
             <a class="link footer-connect__logo" href="">Web<span class="footer-connect__logo-color">Studio</span></a>
             <address>
                 <ul class="list footer-list">
-                    <li></li>
                     <li class="footer-list__item"><a class="link footer-list__link" href="https://goo.gl/maps/oUHoRzqEGJag3ZvA8" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки,26</a></li>
                     <li class="footer-list__item"><a class="link footer-list__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li class="footer-list__item"><a class="link footer-list__tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
@@ -466,6 +465,7 @@
                 name="email"
                 id="email"
                 placeholder="E-mail">
+                </label>
             </form>
             <button type="submit" class="footer-subscribe__btn">Подписаться
                 <svg class="footer-subscribe__icon-send"
@@ -492,49 +492,46 @@
             
             <form action="#">
                 <div class="form-field">
-                    <label class="form-field__input-text" for="user-name">Имя
+                    <label class="form-field__input-text" for="user-name">Имя</label>
                         <div class="input__wrap">
-                            <input type="text" 
+                        <input type="text" 
                             class="form-field__form-input" 
                             name="user-name"
                             id="user-name">
                             <svg class="form-field__modal-icons"
-                            widht="18px"
                             height="18px">
                             <use href="./images/icons.svg#icon-person-black"></use>
-                        </svg>
+                            </svg>
                         </div>
                 </div>
                 <div class="form-field">
-                    <label class="form-field__input-text" for="user-tel">Телефон
-                        <div class="input__wrap">
-                            <input type="tel" 
-                            class="form-field__form-input"  
-                            name="user-tel"
-                            id="user-tel">
-                            <svg class="form-field__modal-icons"
-                            widht="18px"
-                            height="18px">
-                            <use href="./images/icons.svg#icon-phone-black"></use>
+                    <label class="form-field__input-text" for="user-tel">Телефон</label>
+                    <div class="input__wrap">
+                        <input type="tel" 
+                        class="form-field__form-input"  
+                        name="user-tel"
+                        id="user-tel">
+                        <svg class="form-field__modal-icons"
+                        height="18px">
+                        <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg>
-                        </div>
+                    </div>
                 </div>
                 <div class="form-field">
-                    <label class="form-field__input-text" for="user-email">Почта
-                        <div class="input__wrap">
-                            <input type="email" 
-                            class="form-field__form-input"   
-                            name="user-emeil"
-                            id="user-email">
-                            <svg class="form-field__modal-icons"
-                            widht="18px"
-                            height="18px">
-                            <use href="./images/icons.svg#icon-email-black"></use>
+                    <label class="form-field__input-text" for="user-email">Почта</label>
+                    <div class="input__wrap">
+                        <input type="email" 
+                        class="form-field__form-input"   
+                        name="user-emeil"
+                        id="user-email">
+                        <svg class="form-field__modal-icons"
+                        height="18px">
+                        <use href="./images/icons.svg#icon-email-black"></use>
                         </svg>
-                        </div>
+                    </div>
                 </div>
                 <div class="form-field form">
-                    <label class="form-field__input-text" for="user-text">Комментарий
+                    <label class="form-field__input-text" for="user-text">Комментарий</label>
                         <textarea
                         name="user-text" 
                         id="user-text"
@@ -545,8 +542,7 @@
                     <input  type="checkbox" name="policy" id="policy" class="form-field__policy-check visually-hidden">
                     <label for="policy" class="form-field__check-text"><span>
                         <svg class="form-field__icon-check"
-                        widht="16px"
-                        height="15px">
+                            height="15px">
                         <use href="./images/icons.svg#icon-check"></use>
                     </svg>
                     </span>Соглашаюсь с рассылкой и принимаю  <a href="" class="link form-field__agreement-link" target="_blank"  rel="noopener noreferrer" >Условия договора</a></label>
@@ -554,7 +550,6 @@
                 <button type="submit" class="button-submit">Отправить</button>
             </form>
         </div>
-
     </div>
     <script src="./js/modal.js"></script>
 </body>
